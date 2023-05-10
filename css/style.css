@@ -4,14 +4,12 @@
     --color-text-left: white;
     --color-section-left: #1A2B3B;
     --color-text-description: #636363;
-    --font-size-name: 28px;
-    --font-size-sub-name: 16px;
-    --font-size-poste-formation: 12px;
-    --font-size-text: 10px;
-    --font-size-section-title: 20px;
-    --font-size-section-text: 20px;
-    --normal-cv-width: 595px;
-    --section-left-width: 250px;
+    --font-size-name: 3vw/*28px*/;
+    --font-size-sub-name: 1.4vw/*16px*/;
+    --font-size-poste-formation: 1.2vw/*12px*/;
+    --font-size-text: 1vw/*10px*/;
+    --font-size-section-title: 2vw/*20px*/;
+    --section-left-width: 30%;
 
   }
   
