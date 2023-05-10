@@ -18,6 +18,9 @@
   body{
       font-family: 'Inter', sans-serif;
       background-color: var(--color-background);
+      margin: 0px;
+      padding: 0px;
+      height: 100%;
   }
   p{
       font-size: var(--font-size-text);
@@ -25,6 +28,7 @@
   .section-left{
       padding: 20px 20px;
       width: var(--section-left-width);
+      height: 100%;
       background-color: var(--color-section-left);
   }
   #main{
@@ -63,7 +67,7 @@
   }
 
   progress {
-    width: 180px;
+    width: 75%;
     height: 2px;
     background-color: var(--color-background);
     display: block;
