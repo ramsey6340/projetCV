@@ -1,0 +1,29 @@
+:root {
+    --color-header: #839FC6;
+    --color-background: #E5E5E5;
+    --color-section-left: #1A2B3B;
+    --color-name: #535353;
+    --color-text-description: #636363;
+    --font-size-name: 28px;
+    --font-size-sub-name: 16px;
+    --font-size-text: 10px;
+    --font-size-section-title: 20px;
+    --font-size-section-text: 20px;
+    --normal-cv-width: 595px;
+    --header-height: 5%;
+    --section-left-width: 42%;
+
+  }
+  
+  body{
+      background-color: var(--color-background);
+  }
+  header{
+      height: var(--header-height);
+      background-color: var(--color-header);
+  }
+  .section-left{
+      width: var(--section-left-width);
+      background-color: var(--color-section-left);
+  }
+  
