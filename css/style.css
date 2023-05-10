@@ -1,29 +1,144 @@
 :root {
-    --color-header: #839FC6;
+    --color-blue: #839FC6;
     --color-background: #E5E5E5;
+    --color-text-left: white;
     --color-section-left: #1A2B3B;
-    --color-name: #535353;
     --color-text-description: #636363;
     --font-size-name: 28px;
     --font-size-sub-name: 16px;
+    --font-size-poste-formation: 12px;
     --font-size-text: 10px;
     --font-size-section-title: 20px;
     --font-size-section-text: 20px;
     --normal-cv-width: 595px;
-    --header-height: 5%;
-    --section-left-width: 42%;
+    --section-left-width: 250px;
 
   }
   
   body{
+      font-family: 'Inter', sans-serif;
       background-color: var(--color-background);
   }
-  header{
-      height: var(--header-height);
-      background-color: var(--color-header);
+  p{
+      font-size: var(--font-size-text);
   }
   .section-left{
+      padding: 20px 20px;
       width: var(--section-left-width);
       background-color: var(--color-section-left);
   }
+  #main{
+      display: flex;
+  }
+  .avatar{
+      border: 1px solid white;
+      border-radius: 360%;
+      padding: 5px;
+      width: 150px;
+      height: 150px;
+      margin: auto;
+      display: flex;
+  }
+  .section-left p{
+      color: var(--color-text-left);
+  }
+  .title{
+      color: var(--color-text-left);
+      font-size: var(--font-size-section-title);
+      font-weight: 400px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  .section-profile-info p, .section-competence-info p, .section-langue-info p{
+      font-size: var(--font-size-text);
+  }
   
+  .barre-left{
+    border: 1px solid white;
+    width: 80%;
+  }
+  .barre-right{
+    border: 1px solid var(--color-text-description);
+    width: 80%;
+  }
+
+  progress {
+    width: 180px;
+    height: 2px;
+    background-color: var(--color-background);
+    display: block;
+    margin: 0%;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: var(--color-blue);
+  }
+  
+  progress::-moz-progress-bar {
+    background-color: var(--color-blue);
+  }
+  .section-right{
+      padding: 20px 20px;
+  }
+  .section-right p{
+      color: var(--color-text-description);
+  }
+  .name{
+      font-size: var(--font-size-name);
+      font-weight: bold;
+  }
+  .section-right .sub-name{
+    color: var(--color-blue);
+    font-size: var(--font-size-sub-name);
+
+}
+
+.section-right-level{
+    border-left: 2px solid var(--color-text-description);
+    padding-left: 20px;
+    position: relative;
+
+}
+.title-p-f::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--color-text-description);
+    position: absolute;
+    left: -6px;
+}
+.section-right-level .title-p-f{
+    color: var(--color-blue);
+    font-weight: bold;
+    font-size: var(--font-size-poste-formation);
+}
+.section-right-level .name-soc-eco{
+    color: var(--color-text-description);
+    font-weight: bold;
+    font-size: var(--font-size-poste-formation);
+}
+.title-p-f{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.name-soc-eco{
+    margin: 0px;
+}
+.detail-p-f{
+    margin-top: 0px;
+}
+.hobbies{
+    display: flex;
+    gap: 10px;
+}
+.row{
+    display: flex;
+}
+.row .date{
+    padding-right: 50px;
+}
+.date p{
+    margin-top: 0px;
+}
