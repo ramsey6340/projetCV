@@ -34,62 +34,71 @@
   }
   .avatar{
       border: 1px solid white;
-      border-radius: 360%;
+      border-radius: 50%;
       padding: 5px;
-      width: 150px;
-      height: 150px;
+      width: 60%;
+      height: 60%;
       margin: auto;
       display: flex;
   }
-  .section-left p{
-      color: var(--color-text-left);
-  }
-  .title{
-      color: var(--color-text-left);
-      font-size: var(--font-size-section-title);
-      font-weight: 400px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-  }
-  .section-profile-info p, .section-competence-info p, .section-langue-info p{
-      font-size: var(--font-size-text);
-  }
+.avatar img{
+    width: 100%;
+    height: 100%;
+}
+.hobbies img{
+    width: 60%;
+    height: 60%;
+}
+
+.section-left p{
+    color: var(--color-text-left);
+}
+.title{
+    color: var(--color-text-left);
+    font-size: var(--font-size-section-title);
+    font-weight: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section-profile-info p, .section-competence-info p, .section-langue-info p{
+    font-size: var(--font-size-text);
+}
   
-  .barre-left{
+.barre-left{
     border: 1px solid white;
     width: 80%;
-  }
-  .barre-right{
+}
+.barre-right{
     border: 1px solid var(--color-text-description);
     width: 80%;
-  }
+}
 
-  progress {
+progress {
     width: 75%;
     height: 2px;
     background-color: var(--color-background);
     display: block;
     margin: 0%;
-  }
-  
-  progress::-webkit-progress-value {
+}
+
+progress::-webkit-progress-value {
     background-color: var(--color-blue);
-  }
-  
-  progress::-moz-progress-bar {
+}
+
+progress::-moz-progress-bar {
     background-color: var(--color-blue);
-  }
-  .section-right{
-      padding: 20px 20px;
-  }
-  .section-right p{
-      color: var(--color-text-description);
-  }
-  .name{
-      font-size: var(--font-size-name);
-      font-weight: bold;
-  }
-  .section-right .sub-name{
+}
+.section-right{
+    padding: 20px 20px;
+}
+.section-right p{
+    color: var(--color-text-description);
+}
+.name{
+    font-size: var(--font-size-name);
+    font-weight: bold;
+}
+.section-right .sub-name{
     color: var(--color-blue);
     font-size: var(--font-size-sub-name);
 
@@ -142,5 +151,11 @@
     padding-right: 50px;
 }
 .date p{
+    margin-top: 0px;
+}
+.m-bottom{
+    margin-bottom: 0px;
+}
+.m-top{
     margin-top: 0px;
 }
