@@ -103,10 +103,12 @@ progress {
     margin: 0%;
 }
 
+/* style appliquer à la partie rempli de la barre de progression pour Google Chrome et Safari */
 progress::-webkit-progress-value {
     background-color: var(--color-blue);
 }
 
+/* style appliquer à la partie rempli de la barre de progression pour Firefox */
 progress::-moz-progress-bar {
     background-color: var(--color-blue);
 }
