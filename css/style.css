@@ -159,22 +159,22 @@ et Formation de la partie droite du CV */
     color: var(--color-blue);
     font-weight: bold;
     font-size: var(--font-size-poste-formation);
-}
 
-/* sty */
-.section-right-level .name-soc-eco{
-    color: var(--color-text-description);
-    font-weight: bold;
-    font-size: var(--font-size-poste-formation);
-}
-.title-p-f{
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
 }
-.name-soc-eco{
+
+/* style appliqué aux sous-titre des poste et formation, les nom de la société et d'école */
+.section-right-level .name-soc-eco{
+    color: var(--color-text-description);
+    font-weight: bold;
+    font-size: var(--font-size-poste-formation);
+
     margin: 0px;
 }
+
+/* style appliqué aux petits description  */
 .detail-p-f{
     margin-top: 0px;
 }
