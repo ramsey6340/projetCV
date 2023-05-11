@@ -174,14 +174,18 @@ et Formation de la partie droite du CV */
     margin: 0px;
 }
 
-/* style appliqué aux petits description  */
+/* style appliqué aux petites description des postes et des formations */
 .detail-p-f{
     margin-top: 0px;
 }
+
+/* style appliqué au différent centre d'interêt de la personne */
 .hobbies{
     display: flex;
     gap: 10px;
 }
+
+/* style pour mettre les élément qu'elle contient en ligne */
 .row{
     display: flex;
 }
