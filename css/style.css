@@ -2,7 +2,7 @@
 
 :root {
     --color-blue: #839FC6;
-    --color-background: #E5E5E5;
+    --color-background: red/*#E5E5E5*/;
     --color-text-left: white;
     --color-section-left: #1A2B3B;
     --color-text-description: #636363;
