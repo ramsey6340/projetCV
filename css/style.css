@@ -1,75 +1,99 @@
 /* Définition des variables de couleur et de taille */
+
 :root {
     --color-blue: #839FC6;
     --color-background: #E5E5E5;
     --color-text-left: white;
     --color-section-left: #1A2B3B;
     --color-text-description: #636363;
-    --font-size-name: 3vw/*28px*/;
-    --font-size-sub-name: 1.4vw/*16px*/;
-    --font-size-poste-formation: 1.2vw/*12px*/;
-    --font-size-text: 1vw/*10px*/;
-    --font-size-section-title: 2vw/*20px*/;
+    --font-size-name: 3vw/*28px*/
+    ;
+    --font-size-sub-name: 1.4vw/*16px*/
+    ;
+    --font-size-poste-formation: 1.2vw/*12px*/
+    ;
+    --font-size-text: 1vw/*10px*/
+    ;
+    --font-size-section-title: 2vw/*20px*/
+    ;
     --section-left-width: 30%;
+}
 
-  }
-  /* style du body */
-  body{
-      font-family: 'Inter', sans-serif;
-      background-color: var(--color-background);
-      margin: 0px;
-      padding: 0px;
-      height: 100%;
-  }
 
-  /* style global des paragraphes */
-  p{
-      font-size: var(--font-size-text);
-  }
+/* style du body */
 
-  /* style de la partie gauche du CV */
-  .section-left{
-      padding: 20px 20px;
-      width: var(--section-left-width);
-      height: 100%;
-      background-color: var(--color-section-left);
-  }
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-background);
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
 
-  /* style de la balise main qui contient l'ensemble des contenue de notre CV */
-  #main{
-      display: flex;
-  }
 
-  /* style de l'image de la personne */
-  .avatar{
-      border: 1px solid white;
-      border-radius: 50%;
-      padding: 5px;
-      width: 60%;
-      height: 60%;
-      margin: auto;
-      display: flex;
-  }
+/* style global des paragraphes */
 
-  /* style sur l'image de la personne */
-.avatar img{
+p {
+    font-size: var(--font-size-text);
+}
+
+
+/* style de la partie gauche du CV */
+
+.section-left {
+    padding: 20px 20px;
+    width: var(--section-left-width);
+    height: 100%;
+    background-color: var(--color-section-left);
+}
+
+
+/* style de la balise main qui contient l'ensemble des contenue de notre CV */
+
+#main {
+    display: flex;
+}
+
+
+/* style de l'image de la personne */
+
+.avatar {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+}
+
+
+/* style sur l'image de la personne */
+
+.avatar img {
     width: 100%;
     height: 100%;
 }
 
+
 /* style sur les icones dans la partie Centre d'interet */
-.hobbies img{
+
+.hobbies img {
     width: 60%;
     height: 60%;
 }
 
+
 /* style appliquer au paragraphe de la partie droite du CV */
-.section-left p{
+
+.section-left p {
     color: var(--color-text-left);
 }
 
+
 /* style appliqué au différent titre, comme par exemple Competence, Langue, etc */
-.title{
+
+.title {
     color: var(--color-text-left);
     font-size: var(--font-size-section-title);
     font-weight: 400px;
@@ -77,24 +101,34 @@
     margin-bottom: 5px;
 }
 
+
 /* style appliquer aux paragraphes de la section Profile, Competence et Langue */
-.section-profile-info p, .section-competence-info p, .section-langue-info p{
+
+.section-profile-info p,
+.section-competence-info p,
+.section-langue-info p {
     font-size: var(--font-size-text);
 }
 
+
 /* style de la barre qui sous-ligne les titre dans la partie gauche du CV */
-.barre-left{
+
+.barre-left {
     border: 1px solid white;
     width: 80%;
 }
 
+
 /* style de la barre qui sous-ligne les titre dans la partie droite du CV */
-.barre-right{
+
+.barre-right {
     border: 1px solid var(--color-text-description);
     width: 80%;
 }
 
+
 /* style appliquer à la barre de progression dans la section Competence de la partie gauche du CV */
+
 progress {
     width: 75%;
     height: 2px;
@@ -103,50 +137,64 @@ progress {
     margin: 0%;
 }
 
+
 /* style appliquer à la partie rempli de la barre de progression pour Google Chrome et Safari */
+
 progress::-webkit-progress-value {
     background-color: var(--color-blue);
 }
 
+
 /* style appliquer à la partie rempli de la barre de progression pour Firefox */
+
 progress::-moz-progress-bar {
     background-color: var(--color-blue);
 }
 
+
 /* style appliquer à la partie droite du CV */
-.section-right{
+
+.section-right {
     padding: 20px 20px;
 }
 
+
 /* style appliquer au paragraphe de la partie droite du CV */
-.section-right p{
+
+.section-right p {
     color: var(--color-text-description);
 }
 
+
 /* style appliqué au nom et prénom de la personne */
-.name{
+
+.name {
     font-size: var(--font-size-name);
     font-weight: bold;
 }
 
+
 /* style appliqué au texte situé juste après le nom de la personne: "TITRE DU POSTE" */
-.section-right .sub-name{
+
+.section-right .sub-name {
     color: var(--color-blue);
     font-size: var(--font-size-sub-name);
-
 }
 
+
 /* style appliqué au différent point d'expérience et de formation de la personne dans la partie droite du CV */
-.section-right-level{
+
+.section-right-level {
     border-left: 2px solid var(--color-text-description);
     padding-left: 20px;
     position: relative;
-
 }
+
 
 /* style pour créer les petit point de cercle au niveau des différents titre de poste et de formation dans les sections Experience 
 et Formation de la partie droite du CV */
-.title-p-f::before{
+
+.title-p-f::before {
     content: '';
     width: 10px;
     height: 10px;
@@ -156,50 +204,62 @@ et Formation de la partie droite du CV */
     left: -6px;
 }
 
+
 /* style appliqué au aux titres de poste et formation dans la section Expérience et Formation de la personne dans la partie droite du CV */
-.section-right-level .title-p-f{
+
+.section-right-level .title-p-f {
     color: var(--color-blue);
     font-weight: bold;
     font-size: var(--font-size-poste-formation);
-
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
 }
 
+
 /* style appliqué aux sous-titre des poste et formation, les nom de la société et d'école */
-.section-right-level .name-soc-eco{
+
+.section-right-level .name-soc-eco {
     color: var(--color-text-description);
     font-weight: bold;
     font-size: var(--font-size-poste-formation);
-
     margin: 0px;
 }
 
+
 /* style appliqué aux petites description des postes et des formations */
-.detail-p-f{
+
+.detail-p-f {
     margin-top: 0px;
 }
 
+
 /* style appliqué au différent centre d'interêt de la personne */
-.hobbies{
+
+.hobbies {
     display: flex;
     gap: 10px;
 }
 
+
 /* style pour mettre les élément qu'elle contient en ligne */
-.row{
+
+.row {
     display: flex;
 }
-.row .date{
+
+.row .date {
     padding-right: 50px;
 }
-.date p{
+
+.date p {
     margin-top: 0px;
 }
-.m-bottom{
+
+.m-bottom {
     margin-bottom: 0px;
 }
-.m-top{
+
+.m-top {
     margin-top: 0px;
 }
