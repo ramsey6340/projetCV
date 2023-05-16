@@ -1,22 +1,16 @@
 /* Définition des variables de couleur et de taille */
 
 :root {
-    --color-blue: purple/*#839FC6*/
-    ;
+    --color-blue: #839FC6;
     --color-background: #E5E5E5;
     --color-text-left: white;
     --color-section-left: #1A2B3B;
     --color-text-description: #636363;
-    --font-size-name: 3vw/*28px*/
-    ;
-    --font-size-sub-name: 1.4vw/*16px*/
-    ;
-    --font-size-poste-formation: 1.2vw/*12px*/
-    ;
-    --font-size-text: 1vw/*10px*/
-    ;
-    --font-size-section-title: 2vw/*20px*/
-    ;
+    --font-size-name: 3vw;
+    --font-size-sub-name: 1.4vw;
+    --font-size-poste-formation: 1.2vw;
+    --font-size-text: 1vw;
+    --font-size-section-title: 2vw;
     --section-left-width: 30%;
 }
 
